@@ -370,21 +370,28 @@ eventbrite: 27326848339          # optional: alphanumeric key for Eventbrite reg
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
-            <!-- Git 2.8.2 Setup -->
+            <!-- Git 2.10.0 Setup -->
             <!-- Information -->
-            <li>Click on "Next".</li>
+            <li>Accept the license: click on "Next".</li>
+            <!-- Select Destination Location -->
+            <li>Confirm installation directory: click on "Next".</li>
             <!-- Select Components -->
-            <li>Click on "Next".</li>
+            <li>
+              <strong>
+                Unselect
+              </strong>
+              "Associate .sh files to be run with Bash" and Click on "Next".
+            </li>
+            <!-- Select Start Menu Folder -->
+            <li>Keep default start menu folder and click on "Next".</li>
             <!-- Adjusting your PATH environment -->
             <li>
               <strong>
                 Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
               </strong>
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
+              If you forgot to do this programs that you need for the workshop will not work properly.
+              If this happens rerun the installer and select the appropriate option.
             </li>
-            <!-- Choosing the SSH executable -->
-            <li>Click on "Next".</li>
             <!-- Configuring the line ending conversions -->
             <li>
               <strong>
@@ -394,11 +401,11 @@ eventbrite: 27326848339          # optional: alphanumeric key for Eventbrite reg
             <!-- Configuring the terminal emulator to use with Git Bash -->
             <li>
               <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
+                Select "Use Windows' default console window" selected and click on "Next".
               </strong>
             </li>
-            <!-- Configuring experimental performance tweaks -->
-            <li>Click on "Install".</li>
+            <!-- Configuring Extra Options -->
+            <li>Keep all extra options and click on "Install".</li>
             <!-- Installing -->
             <!-- Completing the Git Setup Wizard -->
             <li>Click on "Finish".</li>
